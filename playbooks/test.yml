@@ -1,6 +1,8 @@
 ---
 - hosts: all
   gather_facts: false
+  roles:
+  - hello
   tasks:
   - name: "test"
     foreman_organization:
