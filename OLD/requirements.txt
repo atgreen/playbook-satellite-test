@@ -1,6 +1,0 @@
-nailgun
-apypie
-ansible>=2.3
-six
-pytz
-netaddr
