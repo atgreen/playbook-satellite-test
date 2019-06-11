@@ -7,7 +7,7 @@
       username: "admin"
       password: "foobar"
       server_url: "https://localhost"
-      validate_certs: "cert"
+      validate_certs: 0
       name: "MyOrg"
       description: "This is my org"
       label: "omit"
