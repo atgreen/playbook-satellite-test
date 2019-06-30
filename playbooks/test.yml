@@ -6,9 +6,9 @@
   tasks:
   - name: "test"
     foreman_organization:
-      username: "admin"
-      password: "foobar"
-      server_url: "https://localhost"
+      username: "{{ satellite_login }}"
+      password: "{{ satellite_password }}"
+      server_url: "{{ satellite_api_url }}"
       validate_certs: 0
       name: "MyOrg"
       description: "This is my org"
