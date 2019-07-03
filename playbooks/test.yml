@@ -5,7 +5,8 @@
   - hello
   tasks:
   - name: "test"
-    foreman_organization:
+    local_action: 
+      module: foreman_organization
       username: "{{ satellite_login }}"
       password: "{{ satellite_password }}"
       server_url: "{{ satellite_api_url }}"
